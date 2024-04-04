@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday [name]!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="topping.js"></script>
+</head>
+<body>
+    <h1>Happy Birthday [name]!</h1>
+
+    <div class="instructions-container" style="display:block;">
+        <p>Pick a choice between <button id="mic">Mic</button> or <button id="cursor">Cursor</button> to blow candle.</p>
+    </div>
+    <div id="instructions">
+        <p id="cursorInstructions">Swipe your cursor close to the flame to put it out.</p>
+        <p id="micInstructions">Blow on the flame to put it out.</p>
+    </div>
+    
+    <div class="birthday-cake-container">
+        <div class="birthday-cake-top">
+            <div id="candle"></div>
+            <div id="flame"></div>
+        </div>
+        <div id="icing"></div>
+        <div id="birthday-cake"></div>
+    </div>
+
+    <div class="gift-container">
+        <h3>Blow the candle to earn your prize!</h3>
+        <div id="gift">
+            <img src="#[import image here]" id="img" alt="" width="100" height="100">
+        </div>
+    </div>
+</body>
+</html>
